@@ -40,7 +40,7 @@ export default function CustomFooter() {
             width={20}
             height={20}
             alt={"No Image"}
-            onClick={() => navigate(isAdmin ? "/admin/wishlist" : "/wishlist")}
+            onClick={() => navigate(isAdmin ? "/admin/dashboard" : "/wishlist")}
             className={"cursor-pointer"}
           />
           <img
@@ -48,7 +48,7 @@ export default function CustomFooter() {
             width={20}
             height={20}
             alt={"No Image"}
-            onClick={() => navigate(isAdmin ? "/admin/cart" : "/cart")}
+            onClick={() => navigate(isAdmin ? "/admin/dashboard" : "/cart")}
             className={"cursor-pointer"}
           />
         </>

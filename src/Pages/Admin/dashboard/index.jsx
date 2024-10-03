@@ -11,13 +11,13 @@ import MainLayout from "../../../Component/MainLayout.jsx";
 export default function Dashboard() {
   const navigate = useNavigate();
   const [addWishlist, setAddWishlist] = useState(false);
-  const handleSearch = () => {
-    console.log("Searching...");
-  };
+  // const handleSearch = () => {
+  //   console.log("Searching...");
+  // };
 
-  const handleSelectedCategoryProduct = async () => {
-    navigate("/admin/productlist");
-  };
+  // const handleSelectedCategoryProduct = async () => {
+  //   navigate("/admin/productlist");
+  // };
 
   const addToWishlist = () => {
     console.log("wishlist");
@@ -82,7 +82,7 @@ export default function Dashboard() {
                 <div>
                   <button
                     onClick={() => {
-                      navigate("/admin/profile");
+                      navigate("/admin/orderlist");
                     }}
                     className={
                       "bg-white rounded-full p-2 w-[50px] h-[50px] flex justify-center items-center"
@@ -145,7 +145,7 @@ export default function Dashboard() {
                   <div className={"text-sm font-medium px-4"}>
                     {"Nike Sportswear Club Fleece"}
                   </div>
-                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"$99"}</div>
+                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"99"}</div>
                 </div>
               </div>
               <div
@@ -180,7 +180,7 @@ export default function Dashboard() {
                   <div className={"text-sm font-medium px-4"}>
                     {"Nike Sportswear Club Fleece"}
                   </div>
-                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"$99"}</div>
+                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"99"}</div>
                 </div>
               </div>
               <div
@@ -215,7 +215,7 @@ export default function Dashboard() {
                   <div className={"text-sm font-medium px-4"}>
                     {"Nike Sportswear Club Fleece"}
                   </div>
-                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"$99"}</div>
+                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"99"}</div>
                 </div>
               </div>
               <div
@@ -250,7 +250,7 @@ export default function Dashboard() {
                   <div className={"text-sm font-medium px-4"}>
                     {"Nike Sportswear Club Fleece"}
                   </div>
-                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"$99"}</div>
+                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"99"}</div>
                 </div>
               </div>
               <div
@@ -285,7 +285,7 @@ export default function Dashboard() {
                   <div className={"text-sm font-medium px-4"}>
                     {"Nike Sportswear Club Fleece"}
                   </div>
-                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"$99"}</div>
+                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"99"}</div>
                 </div>
               </div>
               <div
@@ -320,7 +320,7 @@ export default function Dashboard() {
                   <div className={"text-sm font-medium px-4"}>
                     {"Nike Sportswear Club Fleece"}
                   </div>
-                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"$99"}</div>
+                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"99"}</div>
                 </div>
               </div>
               <div
@@ -355,7 +355,7 @@ export default function Dashboard() {
                   <div className={"text-sm font-medium px-4"}>
                     {"Nike Sportswear Club Fleece"}
                   </div>
-                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"$99"}</div>
+                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"99"}</div>
                 </div>
               </div>
               {/*  );*/}

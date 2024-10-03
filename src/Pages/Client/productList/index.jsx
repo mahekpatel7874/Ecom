@@ -78,7 +78,7 @@ export default function ProductList() {
                   <div className={"text-sm font-medium px-4"}>
                     {"Nike Sportswear Club Fleece"}
                   </div>
-                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"$99"}</div>
+                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"99"}</div>
                 </div>
               </div>
               <div className={"cursor-pointer"}>
@@ -108,7 +108,7 @@ export default function ProductList() {
                   <div className={"text-sm font-medium px-4"}>
                     {"Nike Sportswear Club Fleece"}
                   </div>
-                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"$99"}</div>
+                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"99"}</div>
                 </div>
               </div>
               <div className={"cursor-pointer"}>
@@ -138,7 +138,7 @@ export default function ProductList() {
                   <div className={"text-sm font-medium px-4"}>
                     {"Nike Sportswear Club Fleece"}
                   </div>
-                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"$99"}</div>
+                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"99"}</div>
                 </div>
               </div>
               <div className={"cursor-pointer"}>
@@ -168,7 +168,7 @@ export default function ProductList() {
                   <div className={"text-sm font-medium px-4"}>
                     {"Nike Sportswear Club Fleece"}
                   </div>
-                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"$99"}</div>
+                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"99"}</div>
                 </div>
               </div>
               <div className={"cursor-pointer"}>
@@ -198,7 +198,7 @@ export default function ProductList() {
                   <div className={"text-sm font-medium px-4"}>
                     {"Nike Sportswear Club Fleece"}
                   </div>
-                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"$99"}</div>
+                  <div className={"font-bold px-4"}>&#x20b9;&nbsp;{"99"}</div>
                 </div>
               </div>
 

@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import MainLayout from "../../Component/MainLayout.jsx";
 export default function OrderList() {
   const navigate = useNavigate();
+  const isAdmin = window.location.href.indexOf("/admin") > -1;
   return (
     <MainLayout>
       <div className={"w-full overflow-hidden bg-white"}>
@@ -13,7 +14,9 @@ export default function OrderList() {
             }
           >
             <button
-              onClick={() => navigate("/dashboard")}
+              onClick={() =>
+                navigate(isAdmin ? "/admin/dashboard" : "/dashboard")
+              }
               className={
                 "bg-[#F5F6FA] rounded-full p-2 w-[50px] h-[50px] flex justify-center items-center"
               }
@@ -24,7 +27,9 @@ export default function OrderList() {
           </div>
           <div className={"p-4 overflow-y-scroll no-scrollbar"}>
             <div
-              onClick={() => navigate("/orderdetails")}
+              onClick={() =>
+                navigate(isAdmin ? "/admin/orderdetails" : "/orderdetails")
+              }
               className={"grid gap-3 p-4 my-4 rounded-2xl cursor-pointer"}
               style={{ boxShadow: "2px 4px 8px 2px rgb(0 0 0 / 0.09)" }}
             >
@@ -37,7 +42,9 @@ export default function OrderList() {
               </div>
             </div>
             <div
-              onClick={() => navigate("/orderdetails")}
+              onClick={() =>
+                navigate(isAdmin ? "/admin/orderdetails" : "/orderdetails")
+              }
               className={"grid gap-3 p-4 my-4 rounded-2xl cursor-pointer"}
               style={{ boxShadow: "2px 4px 8px 2px rgb(0 0 0 / 0.09)" }}
             >
@@ -50,7 +57,9 @@ export default function OrderList() {
               </div>
             </div>
             <div
-              onClick={() => navigate("/orderdetails")}
+              onClick={() =>
+                navigate(isAdmin ? "/admin/orderdetails" : "/orderdetails")
+              }
               className={"grid gap-3 p-4 my-4 rounded-2xl cursor-pointer"}
               style={{ boxShadow: "2px 4px 8px 2px rgb(0 0 0 / 0.09)" }}
             >
@@ -63,7 +72,9 @@ export default function OrderList() {
               </div>
             </div>
             <div
-              onClick={() => navigate("/orderdetails")}
+              onClick={() =>
+                navigate(isAdmin ? "/admin/orderdetails" : "/orderdetails")
+              }
               className={"grid gap-3 p-4 my-4 rounded-2xl cursor-pointer"}
               style={{ boxShadow: "2px 4px 8px 2px rgb(0 0 0 / 0.09)" }}
             >
@@ -76,7 +87,9 @@ export default function OrderList() {
               </div>
             </div>
             <div
-              onClick={() => navigate("/orderdetails")}
+              onClick={() =>
+                navigate(isAdmin ? "/admin/orderdetails" : "/orderdetails")
+              }
               className={"grid gap-3 p-4 my-4 rounded-2xl cursor-pointer"}
               style={{ boxShadow: "2px 4px 8px 2px rgb(0 0 0 / 0.09)" }}
             >

@@ -4,6 +4,7 @@ import ProductSVG from "../../assets/NANAKbakery.svg";
 import MainLayout from "../../Component/MainLayout.jsx";
 export default function OrderDetails() {
   const navigate = useNavigate();
+  const isAdmin = window.location.href.indexOf("/admin") > -1;
   return (
     <MainLayout>
       <div className={"w-full overflow-hidden bg-white"}>
@@ -14,7 +15,9 @@ export default function OrderDetails() {
         >
           <div className={"p-4 w-full"}>
             <button
-              onClick={() => navigate("/dashboard")}
+              onClick={() =>
+                navigate(isAdmin ? "/admin/orderlist" : "/orderlist")
+              }
               className={
                 "bg-[#F5F6FA] rounded-full p-2 w-[50px] h-[50px] flex justify-center items-center"
               }
